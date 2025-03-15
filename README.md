@@ -831,7 +831,7 @@ WHERE delivery_status = 'Delivered'
 
 ## Conclusion
 
-This project showcases my proficiency in managing complex SQL queries and offering solutions to practical business challenge to real-world business problems in the context of a food delivery service like Zomato. The approach here reflexts a structured problem-solving methodology, data manipulation skills, and the ability to derive actionable insights from data.
+This project showcases my proficiency in managing complex SQL queries and offering solutions to practical business challenge to real-world business problems in the context of a food delivery service like Zomato. The approach here reflects a structured problem-solving methodology, data manipulation skills, and the ability to derive actionable insights from data.
 
 ## Notice 
 
