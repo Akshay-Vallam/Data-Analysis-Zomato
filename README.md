@@ -103,7 +103,7 @@ CREATE TABLE deliveries(
 ```
 ## Data Import
 
-Import data into tables in the below order:
+Import data from local csv files into tables in the below order:
  - restaurants
  - customers
  - riders
@@ -835,7 +835,9 @@ This project showcases my proficiency in managing complex SQL queries and offeri
 
 ## Notice 
 
-All customer names and data used in this project are computer-generated using AI and random functions. They do not represent real data associated with Zomato or any other entity. This project is solely for learning and educational purposes, and any resemblance to actual persons, businesses, or events is purely coincidental.
+All customer names and data used in this project are computer-generated using AI and random functions. They do not represent real data associated with Zomato or any other entity. This project is solely for learning and educational purposes, and any resemblance to actual persons, businesses, or events is purely coincidental. 
+
+The datasets (CSV files) have not been uploaded to the GitHub repository.
 
 ## Source of Inspiration
 
