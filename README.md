@@ -115,74 +115,74 @@ Import data into tables in the below order:
 Prior to analysis, I've ensured that the data was clean and free from null values where necessary.
 
 ```sql
-	SELECT * FROM restaurants;
-	SELECT * FROM customers;
-	SELECT * FROM riders;
-	SELECT * FROM orders;
-	SELECT * FROM deliveries;
+SELECT * FROM restaurants;
+SELECT * FROM customers;
+SELECT * FROM riders;
+SELECT * FROM orders;
+SELECT * FROM deliveries;
 
 -- Handling Null Values
 
-	SELECT COUNT(*) FROM restaurants
-		WHERE
-		restaurant_name IS NULL
-		OR
-		city IS NULL
-		OR
-		opening_hours IS NULL;
-	
-	SELECT COUNT(*) FROM customers
-		WHERE
-		customer_name IS NULL
-		OR
-		reg_date IS NULL;
-	
-	SELECT COUNT(*) FROM riders
-		WHERE
-		rider_name IS NULL
-		OR
-		sign_up IS NULL;
-	
-	SELECT COUNT(*) FROM orders
-		WHERE
-		order_item IS NULL
-		OR
-		order_date IS NULL
-		OR
-		order_time IS NULL
-		OR
-		order_status IS NULL
-		OR 
-		total_amount IS NULL;
-	
-	SELECT COUNT(*) FROM deliveries
-		WHERE
-		delivery_status IS NULL
-		OR
-		delivery_time IS NULL;
+SELECT COUNT(*) FROM restaurants
+    WHERE
+    restaurant_name IS NULL
+    OR
+    city IS NULL
+    OR
+    opening_hours IS NULL;
+
+SELECT COUNT(*) FROM customers
+    WHERE
+    customer_name IS NULL
+    OR
+    reg_date IS NULL;
+
+SELECT COUNT(*) FROM riders
+    WHERE
+    rider_name IS NULL
+    OR
+    sign_up IS NULL;
+
+SELECT COUNT(*) FROM orders
+    WHERE
+    order_item IS NULL
+    OR
+    order_date IS NULL
+    OR
+    order_time IS NULL
+    OR
+    order_status IS NULL
+    OR 
+    total_amount IS NULL;
+
+SELECT COUNT(*) FROM deliveries
+    WHERE
+    delivery_status IS NULL
+    OR
+    delivery_time IS NULL;
 
 -- Sample - Insert & Delete Null Values
 
 -- Insert Null Values
-	INSERT INTO orders(order_id, customer_id, restaurant_id)
-	VALUES
-	(10002, 9, 54),
-	(10003, 10, 51),
-	(10005, 10, 50)
-	;
+INSERT INTO orders(order_id, customer_id, restaurant_id)
+VALUES
+(10002, 9, 54),
+(10003, 10, 51),
+(10005, 10, 50)
+;
 
 -- Delete Null Values
-	DELETE FROM orders
-	WHERE 
-		order_item IS NULL
-		OR
-		order_date IS NULL
-		OR
-		order_time IS NULL
-		OR
-		order_status IS NULL
-		OR 
-		total_amount IS NULL;
+DELETE FROM orders
+WHERE 
+    order_item IS NULL
+    OR
+    order_date IS NULL
+    OR
+    order_time IS NULL
+    OR
+    order_status IS NULL
+    OR 
+    total_amount IS NULL;
 ```
 
 For instance, the null values can also be handled as below:
