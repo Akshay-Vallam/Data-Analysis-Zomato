@@ -202,7 +202,7 @@ SELECT * FROM orders;
 SELECT * FROM deliveries;
 ```
 
-### 1. Frequently ordered dishes
+### 1. Frequently Ordered Dishes
 
 #### Question: 
 #### Write a query to find the top 5 most frequently ordered dishes by customer called "Arjun Mehta" in the last 2 years.
