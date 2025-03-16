@@ -5,7 +5,7 @@
 
 ## Overview
 
-This project demonstrates my problem-solving skills through the analysis of data for the company Zomato. It helped me to understand the following business insights:
+This project demonstrates my problem-solving skills through the analysis of datasets which have more than 10,000 records for the company Zomato. It helped me to understand the following business insights:
 
  - Customer Behaviour and Insights
  - Order and Sales Analysis
