@@ -2,6 +2,7 @@
 # ZOMATO - An Indian food delivery company and multinational restaurant aggregator
 
 ![ZOMATO](https://github.com/Akshay-Vallam/Data-Analysis_Zomato/blob/main/zomato_image.jpg)
+*Image Credit: zomato.com*
 
 ## Overview
 
