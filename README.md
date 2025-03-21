@@ -1,7 +1,7 @@
 # Comprehensive Data Analysis using SQL
 # ZOMATO - An Indian food delivery company and multinational restaurant aggregator
 
-![ZOMATO](https://github.com/Akshay-Vallam/Data-Analysis_Zomato/blob/main/zomato_image.jpg)
+![ZOMATO](https://github.com/Akshay-Vallam/Data-Analysis_Zomato/blob/main/zomato_image.png)
 *Image Credit: zomato.com*
 
 ## Overview
