@@ -104,11 +104,11 @@ CREATE TABLE deliveries(
 ## Data Import
 
 Import data from local csv files into tables in the below order:
- - restaurants
- - customers
- - riders
- - orders
- - deliveries
+ - 1. restaurants
+ - 2. customers
+ - 3. riders
+ - 4. orders
+ - 5. deliveries
 
 ## Data Cleaning
 
