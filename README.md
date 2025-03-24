@@ -1,7 +1,7 @@
 # Comprehensive Data Analysis using SQL
 # ZOMATO - An Indian food delivery company and multinational restaurant aggregator
 
-![ZOMATO](https://github.com/Akshay-Vallam/Data-Analysis_Zomato/blob/main/zomato_image.png)
+![ZOMATO](https://github.com/Akshay-Vallam/Data-Analysis-Zomato/blob/main/zomato_image.png)
 *Image Credit: zomato.com*
 
 ## Overview
@@ -27,6 +27,11 @@ This project has helped me develop the following skills and understanding in SQL
  - Ranking and Ordering
  - Data Segmentation (CASE STATEMENT)
 
+## Datasets
+
+- **Period Covered**: The data spans multiple years, allowing for long-term trend analysis.
+- **Geographical Coverage**: Data across various cities in India.
+
 ## Project Structure
 
 - **Database Setup:** Creation of the `zomato_db` database and the required tables.
@@ -34,7 +39,7 @@ This project has helped me develop the following skills and understanding in SQL
 - **Data Cleaning:** Handling null values and ensuring data integrity.
 - **Business Problems:** Solving 20 specific business problems using SQL queries.
 
-![ERD](https://github.com/Akshay-Vallam/Data-Analysis_Zomato/blob/main/zomato_schemas_erd.png)
+![ERD](https://github.com/Akshay-Vallam/Data-Analysis-Zomato/blob/main/zomato_schemas_erd.png)
 
 ## Database Setup
 ```sql
