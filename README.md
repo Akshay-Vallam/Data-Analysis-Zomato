@@ -29,7 +29,7 @@ This project has helped me develop the following skills and understanding in SQL
 
 ## Datasets
 
-- **Period Covered**: The data spans multiple years, allowing for long-term trend analysis.
+- **Period Covered**: The data spans across multiple years, allowing for long-term trend analysis.
 - **Geographical Coverage**: Data across various cities in India.
 
 ## Project Structure
