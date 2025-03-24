@@ -29,8 +29,9 @@ This project has helped me develop the following skills and understanding in SQL
 
 ## Datasets
 
-- **Period Covered**: The data spans across multiple years, allowing for long-term trend analysis.
-- **Geographical Coverage**: Data from various cities in India.
+ - **Data Covered**: This project includes 5 dataset tables and more than 10,000 records.
+ - **Period Covered**: The data spans across multiple years, allowing for long-term trend analysis.
+ - **Geographical Coverage**: Data from various cities in India.
 
 ## Project Structure
 
